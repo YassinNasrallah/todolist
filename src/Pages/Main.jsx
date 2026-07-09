@@ -1,4 +1,4 @@
-import {React , useState, useRef} from 'react'
+import {useState, useRef} from 'react'
 import { Context } from '../context/Context'
 import Title from '../components/Title'
 import Form from '../Form/Form'
