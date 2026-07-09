@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📝 React Todo List
 
-## Available Scripts
+A simple and responsive Todo List application built with React. This project demonstrates component-based architecture, state management with the Context API, and React Hooks while keeping the code organized and easy to maintain.
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- Add new tasks
+- Delete tasks
+- Responsive user interface
+- Clean and reusable component structure
+- Context API for global state management
+- Modern UI styled with CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- JavaScript (ES6+)
+- CSS3
+- Context API
+- React Hooks
+  - useState
+  - useRef
+  - useContext
 
-### `npm test`
+## 📁 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+│
+├── components/
+│   ├── Form.jsx
+│   ├── List.jsx
+│   ├── Todo.jsx
+│   ├── Title.jsx
+│   └── ...
+│
+├── context/
+│   └── Context.js
+│
+├── styles/
+│   └── style.css
+│
+├── App.js
+└── index.js
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 What I Learned
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Building reusable React components
+- Managing application state using the Context API
+- Working with React Hooks
+- Organizing projects into reusable folders
+- Handling user input with useRef
+- Updating UI dynamically with useState
+- Sharing data between components using useContext
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 UI Design
 
-### `npm run eject`
+The user interface was implemented using CSS. AI tools were used as a source of inspiration and assistance during the UI design process, while the application logic, React components, and functionality were implemented by me.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Yassin Nassrallah**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: https://github.com/YassinNasrallah
